@@ -19,7 +19,7 @@ session_start();
 		<div class="container">	
 			<!-- Codrops top bar -->
 			<div class="codrops-top clearfix">
-				<a href="bigandsmall.php"><strong>&laquo; Back to Main Page: </strong>Science Category</a>
+				<a href="bigandsmall.php"><strong>&laquo; Back to Main Page: </strong>Math Category</a>
 				<span class="right"><a href="size-2.php?ans=none"><strong>Next Question</strong></a></span>
 				
 				<?php 
