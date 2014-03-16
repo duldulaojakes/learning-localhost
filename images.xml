@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+This is the XML from which the SWF file reads the following data:
+
+image - the thumb image in the menu.
+url - the address to go to when clicking the image
+target - _self - opens the url in the same browser page
+	   - _blank - opens the url in a new browser page
+	   - a number - executes _root.gotoAndPlay(number); in Flash
+
+The tooltip text is recorded as CDATA. You can use HTML tags like "<br>"
+-->
+<Carousel centeredImage="slideimages/logo.png" url="#">
+	<photo image="slideimages/01.jpg" url="colors.php" target="_blank"><![CDATA[Colors]]></photo>
+	<photo image="slideimages/02.jpg" url="shapes.php" target="_blank"><![CDATA[Shapes]]></photo>
+	<photo image="slideimages/03.jpg" url="sizes.php" target="_blank"><![CDATA[Sizes]]></photo>
+	<photo image="slideimages/04.jpg" url="position.php" target="_blank"><![CDATA[Positions/Sets]]></photo>
+	<photo image="slideimages/05.jpg" url="numerals.php" target="_blank"><![CDATA[Numbers]]></photo>
+	<photo image="slideimages/06.jpg" url="alphabets.php" target="_blank"><![CDATA[Alphabets]]></photo>
+	<photo image="slideimages/07.jpg" url="parstofbody.php" target="_blank"><![CDATA[Body Parts]]></photo>  
+	<photo image="slideimages/08.jpg" url="Plants-unit2.php" target="_blank"><![CDATA[Plants]]></photo>
+	<photo image="slideimages/09.jpg" url="Unit3animals.php" target="_blank"><![CDATA[Animals]]></photo>
+	<photo image="slideimages/10.jpg" url="Unit4thingsaroundus.php" target="_blank"><![CDATA[Objects]]></photo>  
+</Carousel>
